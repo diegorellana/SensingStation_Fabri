@@ -3191,7 +3191,7 @@
 		)
 		(uuid "43c6b028-a32d-4b20-9e69-b3fc4b2c5d11")
 	)
-	(text "Gain = 5\nSensibility = 10mV/C\n\nNew Sensibility = 10 mV/C * 5 = 50 mV/C"
+	(text "Gain = 4.9\nSensibility = 10mV/C\n\nNew Sensibility = 10 mV/C * 4.9 = 49 mV/C"
 		(exclude_from_sim no)
 		(at 119.634 37.846 0)
 		(effects
@@ -6645,7 +6645,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "51k"
 			(at 181.61 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6985,7 +6985,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.01u"
 			(at 227.33 109.728 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7857,7 +7857,7 @@
 				)
 			)
 		)
-		(property "Value" "40k"
+		(property "Value" "39k"
 			(at 104.648 65.024 90)
 			(show_name no)
 			(do_not_autoplace no)
