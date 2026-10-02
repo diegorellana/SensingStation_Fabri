@@ -3148,17 +3148,6 @@
 		)
 		(uuid "10409811-8207-476e-b49a-2f4f4c4fba9f")
 	)
-	(text "Justify that in San Sebastian\nwe wont go to 0 degrees"
-		(exclude_from_sim no)
-		(at 33.274 50.546 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1e59f66e-41a7-44a3-ace8-2662881a6050")
-	)
 	(text "Light Station\n"
 		(exclude_from_sim no)
 		(at 214.122 16.256 0)
@@ -3268,7 +3257,7 @@
 	)
 	(text "100k rated\n"
 		(exclude_from_sim no)
-		(at 227.33 41.91 0)
+		(at 181.356 44.704 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3285,16 +3274,6 @@
 			)
 		)
 		(uuid "9bb671ad-1635-45bb-b051-c3963b4ef83e")
-	)
-	(text "Buscar uno de 10k-100k"
-		(exclude_from_sim no)
-		(at 228.854 38.608 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a70dc3e9-bcbb-4a83-9642-ea3e58ab3a07")
 	)
 	(junction
 		(at 116.84 46.99)
@@ -3327,6 +3306,12 @@
 		(uuid "47fd85a9-fe1e-4b4c-b208-255960ce0218")
 	)
 	(junction
+		(at 215.9 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "598f95f6-f077-4545-9411-d3d0f6c56a56")
+	)
+	(junction
 		(at 251.46 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3337,12 +3322,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d0c2bc9-4f26-4fda-923b-219b4b6b4636")
-	)
-	(junction
-		(at 222.25 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90cd3705-0a59-46e3-a114-dd28b3d4ebe2")
 	)
 	(junction
 		(at 228.6 99.06)
@@ -3381,7 +3360,7 @@
 		(uuid "f58a83f8-a2ac-4741-aa5e-424786a5c34b")
 	)
 	(no_connect
-		(at 215.9 46.99)
+		(at 189.23 44.45)
 		(uuid "64d89848-0463-4f5f-a86b-99596dd759f8")
 	)
 	(no_connect
@@ -3480,16 +3459,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 38.1) (xy 215.9 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "166fa7ff-64bf-406d-8dc8-b0cd565edd9c")
-	)
-	(wire
-		(pts
 			(xy 194.31 54.61) (xy 194.31 57.15)
 		)
 		(stroke
@@ -3550,6 +3519,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 38.1) (xy 215.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d520368-2e4f-455d-a78e-6b7f757ed3e2")
+	)
+	(wire
+		(pts
 			(xy 36.83 173.99) (xy 43.18 173.99)
 		)
 		(stroke
@@ -3580,7 +3559,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 48.26) (xy 240.03 48.26)
+			(xy 215.9 48.26) (xy 240.03 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3650,6 +3629,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 33.02) (xy 189.23 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a4a72d-782e-48b5-97fe-ac6dbdd5b056")
+	)
+	(wire
+		(pts
+			(xy 194.31 46.99) (xy 194.31 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e7726b-f65c-467e-9cd0-465b1c62bd44")
+	)
+	(wire
+		(pts
 			(xy 240.03 99.06) (xy 237.49 99.06)
 		)
 		(stroke
@@ -3657,6 +3656,16 @@
 			(type default)
 		)
 		(uuid "5549a46d-882b-4cf4-8df3-98b681904d79")
+	)
+	(wire
+		(pts
+			(xy 194.31 40.64) (xy 193.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a11426-26ce-4dc9-ae7b-ee3110a309ba")
 	)
 	(wire
 		(pts
@@ -3740,16 +3749,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 43.18) (xy 194.31 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7059861c-0fbf-4cac-a7e2-2addb1aa9d60")
-	)
-	(wire
-		(pts
 			(xy 194.31 119.38) (xy 194.31 133.35)
 		)
 		(stroke
@@ -3777,16 +3776,6 @@
 			(type default)
 		)
 		(uuid "7c074a2d-0df0-41c1-b33f-46b61ec1fda7")
-	)
-	(wire
-		(pts
-			(xy 219.71 43.18) (xy 222.25 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c9249b7-ac93-42a9-af2a-6dd4ae758e71")
 	)
 	(wire
 		(pts
@@ -3920,16 +3909,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 43.18) (xy 222.25 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "935514f3-3962-43d4-9b64-4466818b2a0e")
-	)
-	(wire
-		(pts
 			(xy 36.83 184.15) (xy 43.18 184.15)
 		)
 		(stroke
@@ -4027,16 +4006,6 @@
 			(type default)
 		)
 		(uuid "b4195c08-4bed-4f60-be29-9f5bb6c8bad9")
-	)
-	(wire
-		(pts
-			(xy 215.9 48.26) (xy 222.25 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba9f6084-a11d-407a-b0ed-a75f17985504")
 	)
 	(wire
 		(pts
@@ -7143,7 +7112,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 194.31 43.18 0)
+		(at 189.23 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7154,7 +7123,7 @@
 		(fields_autoplaced yes)
 		(uuid "be370fad-e882-4137-915f-62f9ef2532d6")
 		(property "Reference" "#PWR023"
-			(at 194.31 46.99 0)
+			(at 189.23 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7165,7 +7134,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 194.31 38.1 0)
+			(at 189.23 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7175,7 +7144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 43.18 0)
+			(at 189.23 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7186,7 +7155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 43.18 0)
+			(at 189.23 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7197,7 +7166,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 194.31 43.18 0)
+			(at 189.23 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8507,7 +8476,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 215.9 43.18 0)
+		(at 189.23 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8517,7 +8486,7 @@
 		(dnp no)
 		(uuid "e4775fba-71af-450f-ae5f-33a01e91df6b")
 		(property "Reference" "RV1"
-			(at 213.36 41.9099 0)
+			(at 186.69 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8528,7 +8497,7 @@
 			)
 		)
 		(property "Value" "R_Potentiometer"
-			(at 213.106 44.196 0)
+			(at 186.436 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8539,7 +8508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 43.18 0)
+			(at 189.23 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8550,7 +8519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 43.18 0)
+			(at 189.23 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8561,7 +8530,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 215.9 43.18 0)
+			(at 189.23 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8572,7 +8541,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 215.9 43.18 0)
+			(at 189.23 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8583,7 +8552,7 @@
 			)
 		)
 		(property "Sim.Type" "POT"
-			(at 215.9 43.18 0)
+			(at 189.23 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8594,7 +8563,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 215.9 43.18 0)
+			(at 189.23 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
