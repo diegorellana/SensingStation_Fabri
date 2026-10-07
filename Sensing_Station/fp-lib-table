@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SensingStation")(type "KiCad")(uri "${KIPRJMOD}/../Libs/SensingStation.pretty")(options "")(descr "Sensing Station custom footprints (LM35 Z03A, PDV-P8103, AOM-4544P-R, ORD324)"))
+)
