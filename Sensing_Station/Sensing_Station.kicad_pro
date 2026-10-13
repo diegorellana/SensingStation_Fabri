@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.6,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "unconnected_items|96400000|123750000|F.Cu|4|eea86be2-be91-4c1f-8c06-dd420090be9f|a5b60049-9448-4823-b009-ea3d25dbe112",
-          "wtf"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

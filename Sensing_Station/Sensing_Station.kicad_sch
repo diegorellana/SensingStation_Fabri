@@ -3136,6 +3136,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "+\n"
+		(exclude_from_sim no)
+		(at 177.038 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "01488f84-832c-47c6-bb6d-55a169e50900")
+	)
 	(text "Magnetic Station\n"
 		(exclude_from_sim no)
 		(at 54.102 94.742 0)
@@ -4229,7 +4239,7 @@
 		)
 		(uuid "fc706a58-26a3-4f41-a73f-a80588de7bf7")
 	)
-	(label "DAQ_LIGHT"
+	(label "DAQ_TEMP"
 		(at 43.18 176.53 0)
 		(effects
 			(font
@@ -4239,7 +4249,7 @@
 		)
 		(uuid "060d2132-ae21-461b-ac7f-4f208bdbc375")
 	)
-	(label "DAQ_TEMP"
+	(label "DAQ_LIGHT"
 		(at 43.18 173.99 0)
 		(effects
 			(font
@@ -6484,7 +6494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SensingStation:Z03A"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 41.91 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7768,7 +7778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 218.44 59.055 0)
 			(hide yes)
 			(show_name no)
