@@ -4239,7 +4239,7 @@
 		)
 		(uuid "060d2132-ae21-461b-ac7f-4f208bdbc375")
 	)
-	(label "DAQ_MAG"
+	(label "DAQ_TEMP"
 		(at 43.18 173.99 0)
 		(effects
 			(font
@@ -4259,7 +4259,7 @@
 		)
 		(uuid "7475b272-fb89-4eca-8781-8633c2f816b6")
 	)
-	(label "DAQ_TEMP"
+	(label "DAQ_SOUND"
 		(at 43.18 184.15 0)
 		(effects
 			(font
@@ -4299,7 +4299,7 @@
 		)
 		(uuid "c278fc24-6f4a-4bc9-8fe4-f425699d5af8")
 	)
-	(label "DAQ_SOUND"
+	(label "DAQ_MAG"
 		(at 43.18 186.69 0)
 		(effects
 			(font
